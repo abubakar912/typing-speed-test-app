@@ -64,6 +64,7 @@ function results() {
   displayAccuracy.innerText = accuracy + "%";
   displayCorrectWords.innerText = correctWords;
   displayIncorrectWords.innerText = incorrectWords;
+  displayIncorrectWords.style.color = "red"
 }
 
 restartBtn.addEventListener("click", () => {
