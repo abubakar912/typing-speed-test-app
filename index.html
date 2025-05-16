@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Typing Speed Tester</title>
+  </head>
+  <body>
+    <div class="timer-sec">
+      <h2>Timer</h2>
+      <div class="time">
+        <h1 id="show-time">00</h1>
+      </div>
+    </div>
+    <div class="show-para">
+        <p id="show-paragraph">The morning breeze gently touches the leaves as sunlight filters through the trees, creating a golden glow on the ground.Birds fly high above the rooftops, singing sweet songs that echo across the quiet neighborhood.</p>
+    </div>
+    <div class="input">
+        <textarea name="textarea" id="textarea" disabled>
+
+        </textarea>
+    </div>
+    <div class="start-btn">
+        <button id="str">Start</button>
+        <button id="restart-btn">⟳</button>
+    </div>
+    <div class="result">
+      <div class="box box1">
+        <h4>WPM</h4>
+        <h1 id="wpm">00</h1>
+      </div>
+      <div class="box box2">
+        <h4>Accuracy</h4>
+        <h1 id="accuracy">00</h1>
+      </div>
+      <div class="box box3">
+        <h4>✔️</h4>
+        <h1 id="correct">00</h1>
+      </div>
+      <div class="box box4">
+        <h4>❌ </h4>
+        <h1 id="incorrect">00</h1>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
